@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040436371949E95700085477 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040436361949E95700085477 /* MapKit.framework */; };
+		0404363B1949F30A00085477 /* ViewControlleraa.m in Sources */ = {isa = PBXBuildFile; fileRef = 040436391949F30A00085477 /* ViewControlleraa.m */; };
+		0404363C1949F30A00085477 /* ViewControlleraa.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0404363A1949F30A00085477 /* ViewControlleraa.xib */; };
 		0429D7CD18D0C0FD009A9509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0429D7CC18D0C0FD009A9509 /* Foundation.framework */; };
 		0429D7CF18D0C0FD009A9509 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0429D7CE18D0C0FD009A9509 /* CoreGraphics.framework */; };
 		0429D7D118D0C0FD009A9509 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0429D7D018D0C0FD009A9509 /* UIKit.framework */; };
@@ -19,6 +22,11 @@
 		0429D7E818D0C0FE009A9509 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0429D7D018D0C0FD009A9509 /* UIKit.framework */; };
 		0429D7F018D0C0FE009A9509 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0429D7EE18D0C0FE009A9509 /* InfoPlist.strings */; };
 		0429D7F218D0C0FE009A9509 /* ygpNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429D7F118D0C0FE009A9509 /* ygpNavTests.m */; };
+		0429D7FD18D0C12E009A9509 /* YGPNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429D7FC18D0C12E009A9509 /* YGPNavController.m */; };
+		2F90DD4818D17CA000A9383E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90DD4618D17CA000A9383E /* ViewController.m */; };
+		2F90DD4918D17CA000A9383E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F90DD4718D17CA000A9383E /* ViewController.xib */; };
+		2F90DD4D18D17D0100A9383E /* ssViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90DD4B18D17D0100A9383E /* ssViewController.m */; };
+		2F90DD4E18D17D0100A9383E /* ssViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F90DD4C18D17D0100A9383E /* ssViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040436361949E95700085477 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		040436381949F30A00085477 /* ViewControlleraa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControlleraa.h; sourceTree = "<group>"; };
+		040436391949F30A00085477 /* ViewControlleraa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControlleraa.m; sourceTree = "<group>"; };
+		0404363A1949F30A00085477 /* ViewControlleraa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControlleraa.xib; sourceTree = "<group>"; };
 		0429D7C918D0C0FD009A9509 /* ygpNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ygpNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0429D7CC18D0C0FD009A9509 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0429D7CE18D0C0FD009A9509 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,14 @@
 		0429D7ED18D0C0FE009A9509 /* ygpNavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ygpNavTests-Info.plist"; sourceTree = "<group>"; };
 		0429D7EF18D0C0FE009A9509 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0429D7F118D0C0FE009A9509 /* ygpNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ygpNavTests.m; sourceTree = "<group>"; };
+		0429D7FB18D0C12E009A9509 /* YGPNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YGPNavController.h; path = ygpNav/YGPNavController.h; sourceTree = "<group>"; };
+		0429D7FC18D0C12E009A9509 /* YGPNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YGPNavController.m; path = ygpNav/YGPNavController.m; sourceTree = "<group>"; };
+		2F90DD4518D17CA000A9383E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F90DD4618D17CA000A9383E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F90DD4718D17CA000A9383E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2F90DD4A18D17D0100A9383E /* ssViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssViewController.h; sourceTree = "<group>"; };
+		2F90DD4B18D17D0100A9383E /* ssViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssViewController.m; sourceTree = "<group>"; };
+		2F90DD4C18D17D0100A9383E /* ssViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ssViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040436371949E95700085477 /* MapKit.framework in Frameworks */,
 				0429D7CF18D0C0FD009A9509 /* CoreGraphics.framework in Frameworks */,
 				0429D7D118D0C0FD009A9509 /* UIKit.framework in Frameworks */,
 				0429D7CD18D0C0FD009A9509 /* Foundation.framework in Frameworks */,
@@ -77,6 +98,16 @@
 		0429D7C018D0C0FD009A9509 = {
 			isa = PBXGroup;
 			children = (
+				2F437A2D18D2C6DA00496E55 /* YGPNav */,
+				2F90DD4A18D17D0100A9383E /* ssViewController.h */,
+				040436381949F30A00085477 /* ViewControlleraa.h */,
+				040436391949F30A00085477 /* ViewControlleraa.m */,
+				0404363A1949F30A00085477 /* ViewControlleraa.xib */,
+				2F90DD4B18D17D0100A9383E /* ssViewController.m */,
+				2F90DD4C18D17D0100A9383E /* ssViewController.xib */,
+				2F90DD4518D17CA000A9383E /* ViewController.h */,
+				2F90DD4618D17CA000A9383E /* ViewController.m */,
+				2F90DD4718D17CA000A9383E /* ViewController.xib */,
 				0429D7D218D0C0FD009A9509 /* ygpNav */,
 				0429D7EB18D0C0FE009A9509 /* ygpNavTests */,
 				0429D7CB18D0C0FD009A9509 /* Frameworks */,
@@ -96,6 +127,7 @@
 		0429D7CB18D0C0FD009A9509 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				040436361949E95700085477 /* MapKit.framework */,
 				0429D7CC18D0C0FD009A9509 /* Foundation.framework */,
 				0429D7CE18D0C0FD009A9509 /* CoreGraphics.framework */,
 				0429D7D018D0C0FD009A9509 /* UIKit.framework */,
@@ -142,6 +174,15 @@
 				0429D7EE18D0C0FE009A9509 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F437A2D18D2C6DA00496E55 /* YGPNav */ = {
+			isa = PBXGroup;
+			children = (
+				0429D7FB18D0C12E009A9509 /* YGPNavController.h */,
+				0429D7FC18D0C12E009A9509 /* YGPNavController.m */,
+			);
+			name = YGPNav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0429D7D718D0C0FD009A9509 /* InfoPlist.strings in Resources */,
+				2F90DD4918D17CA000A9383E /* ViewController.xib in Resources */,
+				2F90DD4E18D17D0100A9383E /* ssViewController.xib in Resources */,
+				0404363C1949F30A00085477 /* ViewControlleraa.xib in Resources */,
 				0429D7DF18D0C0FD009A9509 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0429D7FD18D0C12E009A9509 /* YGPNavController.m in Sources */,
 				0429D7DD18D0C0FD009A9509 /* AppDelegate.m in Sources */,
+				2F90DD4D18D17D0100A9383E /* ssViewController.m in Sources */,
+				2F90DD4818D17CA000A9383E /* ViewController.m in Sources */,
+				0404363B1949F30A00085477 /* ViewControlleraa.m in Sources */,
 				0429D7D918D0C0FD009A9509 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ygpNav/ygpNav-Prefix.pch";
 				INFOPLIST_FILE = "ygpNav/ygpNav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +426,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ygpNav/ygpNav-Prefix.pch";
 				INFOPLIST_FILE = "ygpNav/ygpNav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +493,7 @@
 				0429D7F718D0C0FE009A9509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0429D7F818D0C0FE009A9509 /* Build configuration list for PBXNativeTarget "ygpNavTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +502,7 @@
 				0429D7FA18D0C0FE009A9509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

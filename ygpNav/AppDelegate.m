@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "YGPNavController.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +16,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+     ViewController * view = [[ViewController alloc]init];
+     YGPNavController * ygp = [[YGPNavController alloc]initWithRootViewController:view];
+     self.window.rootViewController=ygp;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
