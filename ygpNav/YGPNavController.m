@@ -13,7 +13,7 @@
 #define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
 #define OFF_X 0
 #define REBOUND_VALUE 150
-#define TRIGGER_POINT 50
+#define TRIGGER_POINT 30
 
 @interface YGPNavController ()
 {
